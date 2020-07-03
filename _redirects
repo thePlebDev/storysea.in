@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-/index.html          urstory.me
+/index.html          /
 /about_us.html     /about_us
 /404_error.html     /404_error
 /contact.html         /contact
@@ -10,3 +10,4 @@
 /believeinyourself.html     /believeinyourself
 /privacy-policy.html    /privacy-policy
 /why-should-we-travel.html /why-should-we-travel
+https://cdn.forms-content.sg-form.com/93345a1d-bc5a-11ea-9ff5-66e09640f725  /subscibe
