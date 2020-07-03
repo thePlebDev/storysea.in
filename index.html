@@ -48,6 +48,9 @@
     <meta name="twitter:site" content="@urstory11" />
     <meta property="og:image:width" content="720" />
     <meta property="og:image:height" content="1080" />
+    <script type="text/javascript" async=""
+        src="https://www.gstatic.com/recaptcha/releases/NMoy4HgGiLr5NAQaEQa2ho8X/recaptcha__en.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
     <!--    <script defer src="/public/members.min.js?v=62ad10baa0"></script>-->
 
 </head>
@@ -238,8 +241,7 @@
 
                     <div class="item-wrap flex post tag-design featured is-image">
                         <article>
-                            <a href="dicision_making" class="item-link-overlay"
-                                aria-label=""></a>
+                            <a href="dicision_making" class="item-link-overlay" aria-label=""></a>
                             <div class="item-image"
                                 style="background-image: url(https://images.unsplash.com/photo-1500856056008-859079534e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80)">
                             </div>
@@ -382,46 +384,40 @@
                 </div>
             </div> -->
             <nav class="section-pagination pagination">
-                <a class="older-posts" href="/page/2/">Older Posts</a>
+                <a class="older-posts" href="#">Older Posts</a>
             </nav>
 
-            <div class="section-subscribe wrap">
+            <!-- <form name="contact" method="POST" data-netlify="true">
+                
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+             
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form> -->
+
+            <div class="section-subscribe wrap" >
                 <div class="subscribe-wrap">
-                    <form data-members-form="subscribe" class="subscribe-form" class="pageclip-form" method="post">
+
+                    <form  name="contact" method="POST" netlify>
                         <h3>Join our occasional newsletter.</h3>
                         <div id="ityped" class="ityped">
                             <span class="ityped-wrap"></span>
                         </div>
 
-                        <!-- <div class="form-group">
-                            <input data-members-email class="subscribe-email" placeholder="Your email address"
+                        <div class="form-group">
+                            <input class="subscribe-email" placeholder="Your email address"
                                 type="email" name="email" aria-label="Your email address" required>
-                        </div> -->
-                        <br>
-
-                        <a class="global-button"
-                            href="https://cdn.forms-content.sg-form.com/93345a1d-bc5a-11ea-9ff5-66e09640f725">Subscribe</a>
-
+                        </div>
+                        
+                        <button  class="global-button" type="send">Subscribe</button>                        
                     </form>
-                    <p class="subscribe-alert-loading">Processing your application</p>
-                    <p class="subscribe-alert-error">There was an error sending the email, please try again</p>
-                    <div class="subscribe-success">
-                        <h3>Great!</h3>
-                        Check your inbox and click the link to confirm your subscription
-                    </div>
                 </div>
             </div>
+            
 
-            <!-- <form action="https://send.pageclip.co/hNP0KT1GGUt571RTbK32QihXUAzEb52a/subscription" class="pageclip-form" method="post"> -->
-            <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-            <!-- <input type="text" name="name" value="Roscoe Jones" />
-                <input type="email" name="email" value="roscoe@example.com" /> -->
-
-            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-            <!-- <button type="submit" class="pageclip-form__submit">
-                  <span>Send</span>
-                </button>
-              </form> -->
 
 
         </div>
