@@ -8,7 +8,7 @@ You will find here passion, emotion, fear, sadnes, hardship and joys in form of 
 Since long time stories are being source of hope that we use to sustain and overcome hardships we have in day to day life.
 The stories we share are well written sequenced, and filled with lot of suspense and motivation.
 
-
+## Motivation  behind the storysea project
 Stories are the key path to the personal development and bringing up the universal sense,Inspirational stories are key to building our character and make us what we are today. 
  Your valuable story not only bring experience in front of the real world but also making people in the world less alone.
  
