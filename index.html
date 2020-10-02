@@ -50,10 +50,26 @@
 
 </head>
 
+<style>
+	/* for dark mode button */
+	#dark-mode-btn {
+		position: absolute;
+		top: 1rem;
+		right: 1.5rem;
+	}
+</style>
+
 <body
-    class="home-template global-hash-blue  global-hash-details-goldenrod global-hash-full-image global-hash-green global-hash-large global-hash-login-panel-disable global-hash-orange global-hash-post-orange global-hash-post-violet global-hash-red global-hash-violet global-hash-yellow">
+    class="home-template global-hash-blue  global-hash-details-goldenrod global-hash-full-image global-hash-green global-hash-large global-hash-login-panel-disable global-hash-orange global-hash-post-orange global-hash-post-violet global-hash-red global-hash-violet global-hash-yellow" />
 
     <div class="global-wrap">
+        <div id="dark-mode-btn">
+			<span>Dark mode</span>
+			<label class="switch">
+				<input id="checkbox" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</div>
         <div class="section-content-wrap">
             <div class="section-header wrap">
                 <header class="header-wrap flex">
@@ -71,7 +87,6 @@
                             </label>
                             <input type="checkbox" id="toggle" class="nav-toggle">
                             <ul class="nav-list">
-
                                 <li class="nav-list-item">
                                     <a href="/contact" class="nav-link">Contact</a>
                                     <span class="nav-dot"></span>

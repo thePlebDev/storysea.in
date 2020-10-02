@@ -35,9 +35,25 @@
 
 </head>
 
+<style>
+	/* for dark mode button */
+	#dark-mode-btn {
+		position: absolute;
+		top: 1rem;
+		right: 1.5rem;
+	}
+</style>
+
 <body
-	class="home-template global-hash-blue global-hash-dark-version global-hash-details-goldenrod global-hash-full-image global-hash-green global-hash-large global-hash-login-panel-disable global-hash-orange global-hash-post-orange global-hash-post-violet global-hash-red global-hash-violet global-hash-yellow">
+	class="home-template global-hash-blue global-hash-details-goldenrod global-hash-full-image global-hash-green global-hash-large global-hash-login-panel-disable global-hash-orange global-hash-post-orange global-hash-post-violet global-hash-red global-hash-violet global-hash-yellow">
 	<div class="global-wrap">
+		<div id="dark-mode-btn">
+			<span>Dark mode</span>
+			<label class="switch">
+				<input id="checkbox" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</div>
 		<div class="section-content-wrap">
 			<div class="section-header wrap">
 				<header class="header-wrap flex">
@@ -318,6 +334,21 @@
 		if (stripe == 'success') {
 			body.classList.add("members-notification-checkout-success");
 		}
+
+		/*Function for witching to dark mode*/
+    document.addEventListener('DOMContentLoaded', function () {
+        var checkbox = document.querySelector('#checkbox');
+        var label = document.querySelector('#dark-mode-btn span');
+        checkbox.addEventListener('change', function () {
+          if (checkbox.checked) {
+            document.querySelector('body').classList.add("global-hash-dark-version");
+            label.innerHTML = "Light Mode";
+          } else {
+            document.querySelector('body').classList.remove("global-hash-dark-version");
+            label.innerHTML = "Dark Mode";
+          }
+        });
+    });
 	</script>
 
 
