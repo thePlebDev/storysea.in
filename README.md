@@ -24,6 +24,9 @@ You can share your story, motivating or bringing a smile to the world by mailing
 
 ## Contributing
 Contributors are always welcome!!!
+=> First star the repository.
+=> Fork it.
+=> Start contributing.
 You can contribute to either the front end or backend to make the user experience more comfortable. Even a single line of contribution will help us to raise more.
 
 
