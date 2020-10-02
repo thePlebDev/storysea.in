@@ -6,7 +6,7 @@
 
 ## [Storysea.in](https://www.storysea.in/)
 
-Storysea, as the name suggests, is a sea of inspiring tales and lessons. Every drop of it is are captivating stories from people who mean to share their thoughts to the world.
+Storysea, as the name suggests, is a sea of inspiring tales and lessons. Every drop of it is a  captivating story from person who intents to share their thoughts on noble topics to the world.
 
 Storysea is a unique blog where people from different disciplines share their life lessons, motivational or educational insights, phyilosophical thoughts or just beautiful memories.
 
