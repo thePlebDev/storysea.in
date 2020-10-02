@@ -7,7 +7,7 @@ function searchStory() {
 
     let keyword = document.getElementById("searchInput").value;
 
-    if (stories != undefined) {
+    if (stories != undefined && keyword != "") {
       stories.forEach((story) => {
         let showThisStory = false;
         story.keywords.forEach((kw) => {
@@ -15,7 +15,7 @@ function searchStory() {
             !showThisStory &&
             (kw.includes(keyword) ||
               keyword.includes(kw) ||
-              story.title.includes(kw))
+              story.title.includes(keyword))
           ) {
             console.log(story.title);
             let $res = $("#search-result-template").clone();
