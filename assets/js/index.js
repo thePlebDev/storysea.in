@@ -10,7 +10,22 @@
     "function" == typeof define && define.amd ? define("jquery-bridget/jquery-bridget", ["jquery"], function(t) {
         return i(e, t)
     }) : "object" == typeof module && module.exports ? module.exports = i(e, require("jquery")) : e.jQueryBridget = i(e, e.jQuery)
-}(window, function(t, e) {
+}
+/*Function for witching to dark mode*/
+document.addEventListener('DOMContentLoaded', function () {
+    var checkbox = document.querySelector('#checkbox');
+    var label = document.querySelector('#dark-mode-btn span');
+    checkbox.addEventListener('change', function () {
+      if (checkbox.checked) {
+        document.querySelector('body').classList.add("global-hash-dark-version");
+        label.innerHTML = "Light Mode";
+      } else {
+        document.querySelector('body').classList.remove("global-hash-dark-version");
+        label.innerHTML = "Dark Mode";
+      }
+    });
+  }
+(window, function(t, e) {
     "use strict";
     var i = Array.prototype.slice,
         n = t.console,
@@ -1504,7 +1519,7 @@ function(i, n) {
             })
         }
     }, e
-});
+}));
 
 /* Custom settings for Flickity */
 var slider = document.getElementById('slider'),
