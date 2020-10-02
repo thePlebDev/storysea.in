@@ -1,0 +1,23 @@
+[build.processing]
+  skip_processing = false
+
+#minify and bundle assets to reduce time compiling and execution
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true
+
+# Cache control for histories images, caches images for 1 year but must verify first with server for any changes.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    cache-control = '''
+    max-age=31536000,
+    no-cache,
+    must-revalidate'''
