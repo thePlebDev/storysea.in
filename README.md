@@ -1,6 +1,6 @@
 # Storysea
 
-![[Storysea.in](http://storysea.in)](https://www.storysea.in/content/default-monochrome-white.svg)
+![[Storysea.in](https://www.storysea.in/)](https://www.storysea.in/content/default-monochrome-white.svg)
 
 ## **- Everyone has a story and needs to be share -**
 
