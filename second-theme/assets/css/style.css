@@ -150,7 +150,7 @@ header {
 
 header .header-wrapper {
     box-shadow: 0px 4px 18px 0 rgba(32, 45, 73, 0.1);
-    background-color: #ffffff;
+    background-color: #222327;
     padding: 25px 0;
     transition: .4s ease;
 }
@@ -201,7 +201,7 @@ header .header-wrapper .header-menu ul .nav-item:hover .sub-menu {
 header .header-wrapper .header-menu ul .nav-item .pisen-nav-link {
     font-family: "Cerebri-bold";
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     line-height: 24px;
     display: inline-block;
     -webkit-transition: 0.3s ease;
@@ -353,12 +353,10 @@ header .header-wrapper .menu-function .social-contact a:hover {
 
 header .header-wrapper .menu-function .social-contact a:first-child {
     margin-left: 0;
-    font-size: 2rem;
 }
 
 header .header-wrapper .menu-function .social-contact a:last-child {
     margin-right: 0;
-    font-size: 2rem;
 }
 
 header .header-wrapper .menu-function #cart {
@@ -1045,7 +1043,7 @@ footer .footer-links ul li .footer-link:before {
 }
 
 footer .footer-contact .contact-method {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 footer .footer-contact .contact-method p {
@@ -4155,7 +4153,6 @@ footer.v2 .footer-links ul li {
     background: #E7A007;
     border-radius: 10px;
     padding: 50px 30px;
-    margin:5rem 0;
 }
 
 .blog-detail.blog-detail-02 .post-block .blog-quote q {
@@ -5058,7 +5055,7 @@ footer.v2 .footer-links ul li {
 }
 
 .about-us .about-us_block .about-us_img {
-    margin: 5rem 0;
+    margin-bottom: 20px;
 }
 
 .about-us .about-us_block .about-paragraph {
