@@ -4,7 +4,7 @@ import React from 'react'
 const NavBar =()=>{
 
   return(
-    <h1>This is where the navbar will be</h1>
+    <h1>This can be changed</h1>
   )
 }
 
