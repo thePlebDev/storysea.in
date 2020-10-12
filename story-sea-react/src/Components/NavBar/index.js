@@ -1,10 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Title = styled.div`
+  font-size:40px
+`
+
 
 
 const NavBar =()=>{
 
   return(
-    <h1>This can be changed</h1>
+    <Title>This can be changed</Title>
   )
 }
 
